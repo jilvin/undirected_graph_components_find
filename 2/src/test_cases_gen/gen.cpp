@@ -16,10 +16,10 @@
 #define RUN 10
 
 // Define the maximum number of vertices of the graph
-#define MAX_VERTICES 40000
+#define MAX_VERTICES 1000
 
 // Define the maximum number of edges
-#define MAX_EDGES 100000
+#define MAX_EDGES 1000
 
 int main()
 {
