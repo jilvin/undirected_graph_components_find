@@ -172,6 +172,10 @@ int main(int argn, char** args)
             }
             else
             {
+                // to support index starting from 0 -- remove after testing -- start
+                // a++;
+                // b++;
+                // to support index starting from 0 -- remove after testing -- end
                 p = std::make_pair(a, b);
                 edge_list.insert(p);
             }
