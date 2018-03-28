@@ -16,7 +16,7 @@ public:
     // function to create union of two sets with their representatives passed in
     // as parameters. the original two sets identified by the representatives
     // will be dropped.
-    virtual void union_sets()=0;
+    virtual void union_sets_based_on_representative(int element1, int element2)=0;
 
     // function to find representative to the set that contains the element
     // passed as parameter
